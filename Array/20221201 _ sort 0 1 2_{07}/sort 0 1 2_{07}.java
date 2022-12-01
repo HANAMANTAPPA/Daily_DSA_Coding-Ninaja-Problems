@@ -1,5 +1,4 @@
 //
-
 import java.util.* ;
 import java.io.*; 
 public class Solution 
@@ -22,19 +21,17 @@ public class Solution
             }
         }
         ////// 
-        while( c0!= 0){
-            System.out.print("0 ");
+        for (int i=0; i<c0; i++){
+            arr[i]=0;
         }
-        while( c1!= 0){
-            System.out.print("1 ");
+        for (int i=c0; i<c0+c1; i++){
+            arr[i]=1;
+        }        
+        for (int i=c0+c1; i<c0+c1+c2; i++){
+            arr[i]=2;
         }
-        while( c2!= 0){
-            System.out.print("2 ");
-        }
-        
-        
+  
     }
 }
-
 
 
