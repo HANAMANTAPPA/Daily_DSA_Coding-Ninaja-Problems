@@ -1,5 +1,4 @@
 
-
 import java.util.* ;
 import java.io.*; 
 import java.util.* ;
@@ -17,12 +16,16 @@ public class Solution{
                 }
             }
         }
+        // just to verify that arry is sorted 
+        for( int x:arr){
+            System.out.println(x); 
+        }
         
-        ArrayList<Integer> al=new ArrayList<integer>();
+        ArrayList<Integer> al=new ArrayList<Integer>();
         
         for (int i=0; i<arr.length-1; i++){ //let's take till 2nd last element 
             for(int j=i+1; j<arr.length;j++){
-                if(arr[i] == arr[j]){
+                if(arr[i] + arr[j] == s){// Conition for pairsum
                     al.add(arr[i]);
                     al.add(arr[j]);
                 }
@@ -44,4 +47,3 @@ public class Solution{
         return oarr;
     }
 }
-
