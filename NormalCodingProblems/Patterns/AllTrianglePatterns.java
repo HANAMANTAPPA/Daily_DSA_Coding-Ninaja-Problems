@@ -27,7 +27,7 @@ public class MyClass {
 //////--------------------------------------Problem 02------------------------------------
 /*  
 
-out put 
+----Out put 
 ONMLK
  JIHG
   FED
