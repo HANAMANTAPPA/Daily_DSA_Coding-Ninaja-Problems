@@ -1,4 +1,4 @@
-This is for my reerence 
+This is for my reference 
 
 Trying for all types of patterns.
 
