@@ -93,7 +93,6 @@ public class MyClass {
 1+2+3+4=10
 1+2+3+4+5=15
 1+2+3+4+5+6=21
-
 */
 
 public class MyClass {
