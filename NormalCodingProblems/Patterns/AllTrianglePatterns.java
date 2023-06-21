@@ -4,7 +4,7 @@
  ****         DCBA         ABCD
   ***          CBA          ABC
    **           BA           AB
-    *            A            A
+    *            A            A 
 */
 
 public class MyClass {
