@@ -18,3 +18,24 @@ Sample Output 2 :
 a
 */
 
+import java.util.*;
+public class MyClass {
+    public static void main(String args[]) {
+      
+      String S ="This is small String";
+      System.out.println(MiniumLength(S));
+    }
+    public static String MiniumLength(String s){
+        String arr[] = s.split(" ");
+        int smLen=s.length();
+        String ans="";
+        
+        for(int x=0; x<arr.length;x++){
+            if(smLen > arr[x].length()){
+                ans= arr[x];
+                smLen=arr[x].length();
+            }
+        }
+        return ans;
+    }
+}
