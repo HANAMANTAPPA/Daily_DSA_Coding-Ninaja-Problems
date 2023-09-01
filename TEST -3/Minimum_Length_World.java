@@ -18,7 +18,6 @@ Sample Output 2 :
 a
 */
 
-import java.util.*;
 public class MyClass {
     public static void main(String args[]) {
       
@@ -30,10 +29,10 @@ public class MyClass {
         int smLen=s.length();
         String ans="";
         
-        for(int x=0; x<arr.length;x++){
-            if(smLen > arr[x].length()){
-                ans= arr[x];
-                smLen=arr[x].length();
+        for(String x:arr){
+            if(smLen > x.length()){
+                ans= x;
+                smLen=x.length();
             }
         }
         return ans;
